@@ -1,0 +1,19 @@
+{
+  "name": "m8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "midtrans-client": "^1.2.3",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "ngrok": "^4.0.1"
+  }
+}
