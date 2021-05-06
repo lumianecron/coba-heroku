@@ -23,8 +23,8 @@ const midtransClient = require('midtrans-client');
 
 let midtransCore = new midtransClient.CoreApi({
     isProduction: false,
-    serverKey: '***', // hrs daftar dulu
-    clientKey: '***'
+    serverKey: process.env.MT_SERVER_KEY, // hrs daftar dulu
+    clientKey: process.env.MT_CLIENT_KEY
 });
 // ====================================================
 
